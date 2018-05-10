@@ -12,10 +12,10 @@
 <div id="mainwrapper">
 	<div class="resize">
 
-		<h1>Фреймворк Бутстрап.</h1>
+		<h1>Фреймворк Bootsrap (Бутстрап).</h1>
 		<p><strong>Twitter Bootstrap</strong> - фреймворк (заготовка, напівфабрикат, набір шаблонів) для швидкого створення веб-сайтів.</p>
 		<p>Він складається зі зручної CSS-сітки, набору візуальних компонентів та скриптів.</p>
-		<p>Поточна версія - <a href="http://getbootstrap.com/" target="_blank">Bootstrap 4</a>.</p>
+		<p>Поточна версія - <a href="http://getbootstrap.com/" target="_blank">Bootstrap 4 (ENG)</a>, <a href="http://bootstrap-4.ru/" target="_blank">Bootstrap 4 (RUS)</a>.</p>
 
 		<section>
 			<h2>1. Сітка Бутстрапа.</h2>
@@ -44,10 +44,25 @@
 				&nbsp;&nbsp;col-lg-* { width: ...; }<br>
 				}
 			</code>
+			<code data-lang="scss">
+				<span>// Extra small devices (portrait phones, less than 576px)</span><br>
+				<span>// No media query for `xs` since this is the default in Bootstrap</span><br><br>
+
+				<span>// Small devices (landscape phones, 576px and up)</span><br>
+				<span>@media</span> <span>(</span><span>min-width</span><span>:</span> <span>576px</span><span>)</span> <span>{</span> <span>...</span> <span>}</span><br><br>
+
+				<span>// Medium devices (tablets, 768px and up)</span><br>
+				<span>@media</span> <span>(</span><span>min-width</span><span>:</span> <span>768px</span><span>)</span> <span>{</span> <span>...</span> <span>}</span><br><br>
+
+				<span>// Large devices (desktops, 992px and up)</span><br>
+				<span>@media</span> <span>(</span><span>min-width</span><span>:</span> <span>992px</span><span>)</span> <span>{</span> <span>...</span> <span>}</span><br><br>
+
+				<span>// Extra large devices (large desktops, 1200px and up)</span><br>
+				<span>@media</span> <span>(</span><span>min-width</span><span>:</span> <span>1200px</span><span>)</span> <span>{</span> <span>...</span> <span>}</span><br><br>
+			</code>
 		</section>
 
 		<section>
-			<h1 style="color: red;">ТУТ ЗАКІНЧИВ</h1>
 			<h2>2. Компоненти Бутстрапа.</h2>
 			<p>В Бутстрапі є <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank">багато заготовок</a> для різноманітних <a href="http://getbootstrap.com/css/" target="_blank">стандартних елементів</a> веб-сторінок:<br>
 				- іконки;<br>
@@ -67,7 +82,7 @@
 			<h2>3. Використання Бутстрапа.</h2>
 			<p>Якщо вам потрібна тільки сітка - ви можете піделючити тільки файл стилів. Або ж створити свою сітку на основі бутстрапівської, де не буде зайвих класів.</p>
 			<p>Та у великих проектах як правило знадобляться різноманітні компоненти з фреймворка.</p>
-			<p>Є <a href="https://almsaeedstudio.com/" target="_blank">готові шаблони</a> (платні та безкоштовні), з яких сайт збирається як конструктор.<br>
+			<p>Є <a href="https://mdbootstrap.com/" target="_blank">готові шаблони</a> (платні та безкоштовні), з яких сайт збирається як конструктор.<br>
 				Гугл: <strong>free bootstrap template</strong>, <strong>free bootstrap admin template</strong>.</p>
 			<p><strong class="danger">Чого не варто робити:</strong></p>
 			<p>- редагувати файл <strong>bootstrap.css</strong> чи <strong>bootstrap.min.css</strong>;</p>
@@ -105,11 +120,10 @@
 				&lt;span class="btn btn-lg btb-info"&gt;Кнопка&lt;/span&gt;
 			</code>
 		</section>
-
 		<section class="homework">
 			<h2>Домашнє завдання.</h2>
 			<h3>Рівень 1.</h3>
-			<p>1. Підключіть в проект Minecraft (<a href="http://circle.com.ua/lections/fe10/files/psd/minecraft.jpg" target="_blank">jpg</a>) файл стилів Бутстрап та використайте його сітку та деякі компоненти. Почистіть свій файл стилів від зайвих класів.</p>
+			<p>1. Підключіть в проект Minecraft (<a href="files/img/minecraft.jpg" target="_blank">jpg</a>) файл стилів Бутстрап та використайте його сітку та деякі компоненти. Почистіть свій файл стилів від зайвих класів.</p>
 		</section>
 
 	</div>
